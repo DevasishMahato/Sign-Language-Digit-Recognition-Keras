@@ -148,6 +148,7 @@ p = model.predict_generator(pred)
 print(p.argmax())
 
 model = load_model('Project2.h5')
+
 #Video live stream
 cam = cv2.VideoCapture(0)
 for i in range (100):
